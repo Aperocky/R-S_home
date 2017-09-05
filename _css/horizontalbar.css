@@ -1,0 +1,38 @@
+/* Horizontal Bar - - - Testing side by side layout */
+div.horizontalbar {
+  margin: 0 auto;
+  width: 80%;
+  background-color: lightblue;
+}
+div.entry {
+  position: relative;
+  display: inline-block;
+  margin: 1% auto;
+  width: 47%;
+  vertical-align: top;
+}
+img.images {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+div.caption_box{
+  top: 10%;
+  left: 10%;
+  position: absolute;
+  width: 50%;
+  background-color: #fff;
+  opacity: 0.6;
+  border: 2px solid black;
+}
+div.caption_box h3{
+  text-align: center;
+  font-size: 1em;
+  color: #000;
+}
+div.caption_box p{
+  text-align: justify;
+  font-size: 0.8em;
+  color: #000;
+  padding: 10px;
+}

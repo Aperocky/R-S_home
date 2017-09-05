@@ -2,15 +2,22 @@
 for him and his sweetheart Sophie.
 Overall body element */
 body {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
+
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 /* The following block is the Header of the website */
 .header {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  top: 0;
   margin: inherit;
+  top: 0px;
 }
 h2 {
+  text-align: center;
   margin: inherit;
   font-size: 1.5em;
   background-image: url('../_images/sweethome.jpg');
@@ -18,47 +25,69 @@ h2 {
   border-bottom-color: darkgreen;
   padding: 1em;
 }
+div.placeholder{
+  margin-top: 10em;
+}
 /* The following is the Top Bar element */
 div.topbar{
   margin: inherit;
+  padding: 0;
+  background-color: orange;
+  border-bottom: 3px solid darkgreen;
+}
+ul.list {
+  text-align: center;
+  margin: inherit;
+  padding: 5px;
 }
 ul.list li{
   margin: inherit;
   display: inline-block;
   font-size: 1.2em;
   background color: blue;
-  padding: 5px;
 }
 .topbarblock{
   margin: inherit;
-  border: 2px solid blue;
+  padding: 0;
+  font-size: 1em;
+  font: helvetica;
 }
-/* Activities title bar */
-h3 {
-  margin: inherit;
-  text-align: center;
-  font-size: 1.5em;
-  background: #1453ad;
-  border-bottom-style: solid;
-  border-bottom-color: darkgreen;
-  padding: .4em;
+/* This is the footer */
+div.footer{
+  background: gray;
+  padding: 10px;
 }
-/* Acts block and picture -- Testing side by side layout */
-#acts {
-  position: relative;
-  width: 50%;
-  background: rgba(60,20,20,.5);
+ul.contacts{
+  margin-left: 20px;
+  padding: 10px;
 }
-div.actstext{
-  color: #000000;
-  padding: 1em;
-}
-dt {
-  font-size: 1.2em;
-  text-align: center;
-  padding: 0.5em 0;
-}
-dd {
+/* FRONT PAGE SPECIFIC ELEMENT */
+
+/* Large frontpage picture */
+div.middle{
   width: 80%;
-  text-align: justify;
+  margin: inherit;
+  position: relative;
+}
+div.frontimage{
+  margin: inherit;
+  width: 100%;
+}
+div.frontimage img{
+  width: 100%;
+  padding: 0;
+  margin: inherit;
+}
+div.quote{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 60%;
+}
+div.quote p{
+  font-size: 2em;
+  font: Helvetica;
+  font-weight: 700;
+  opacity: 0.6;
+  color: #111;
 }
