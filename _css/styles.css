@@ -1,0 +1,64 @@
+/* CSS stylesheet, created by Rocky Li on his task to create a starter website
+for him and his sweetheart Sophie.
+Overall body element */
+body {
+  width: 60%;
+  margin: 0 auto;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/* The following block is the Header of the website */
+.header {
+  margin: inherit;
+}
+h2 {
+  margin: inherit;
+  font-size: 1.5em;
+  background-image: url('../_images/sweethome.jpg');
+  border-bottom-style: solid;
+  border-bottom-color: darkgreen;
+  padding: 1em;
+}
+/* The following is the Top Bar element */
+div.topbar{
+  margin: inherit;
+}
+ul.list li{
+  margin: inherit;
+  display: inline-block;
+  font-size: 1.2em;
+  background color: blue;
+  padding: 5px;
+}
+.topbarblock{
+  margin: inherit;
+  border: 2px solid blue;
+}
+/* Activities title bar */
+h3 {
+  margin: inherit;
+  text-align: center;
+  font-size: 1.5em;
+  background: #1453ad;
+  border-bottom-style: solid;
+  border-bottom-color: darkgreen;
+  padding: .4em;
+}
+/* Acts block and picture -- Testing side by side layout */
+#acts {
+  position: relative;
+  width: 50%;
+  background: rgba(60,20,20,.5);
+}
+div.actstext{
+  color: #000000;
+  padding: 1em;
+}
+dt {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 0.5em 0;
+}
+dd {
+  width: 80%;
+  text-align: justify;
+}
