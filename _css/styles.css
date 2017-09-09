@@ -4,7 +4,7 @@ Overall body element */
 body {
   width: 100%;
   margin: 0 auto;
-
+  background: rgba(200,200,200,.5);
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 /* The following block is the Header of the website */
