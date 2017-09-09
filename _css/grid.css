@@ -1,0 +1,8 @@
+div.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+div.grid_container{
+  display: grid;
+  align-items: center;
+}
